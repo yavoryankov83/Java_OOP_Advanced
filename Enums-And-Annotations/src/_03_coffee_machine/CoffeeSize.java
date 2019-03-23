@@ -1,7 +1,9 @@
 package _03_coffee_machine;
 
 public enum CoffeeSize {
-  SMALL(50, 50), NORMAL(100, 75), DOUBLE(200, 100);
+  SMALL(50, 50), 
+  NORMAL(100, 75), 
+  DOUBLE(200, 100);
 
   private int dosage;
   private int price;
