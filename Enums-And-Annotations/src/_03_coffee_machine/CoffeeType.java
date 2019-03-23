@@ -1,7 +1,9 @@
 package _03_coffee_machine;
 
 public enum CoffeeType {
-  ESPRESSO, LATTE, IRISH;
+  ESPRESSO, 
+  LATTE, 
+  IRISH;
 
   @Override
   public String toString() {
